@@ -11,6 +11,129 @@
 </head>
 
 <body>
+    <nav class="navigation-bar">
+
+        <ul id="nav-bar-ul">
+            <li>
+                <img class="logo"
+                    src="https://lh3.googleusercontent.com/pw/AM-JKLWq90-FW8HjdiDxrvUWbWKXKtBtqI2x3SxUpDX3DqJaBXyjOro5sjNbiYn5Cj70RlD05GPJXP7JgmUUMVWR9iIRNpksLExohUEa5_DKTEEuz5_I4jk9Dtt2AYbiU4OPUEiDwC0Dw6bq2X1ykWMj9OHX=s999-no?authuser=0"
+                    alt="Logo">
+            </li>
+            <li>
+                <h1 id="logo-text">Petra Michael</h1>
+            </li>
+
+
+
+            <li>
+                <h2 class="nav-choice"><a href="https://sites.google.com/view/12321-petra-michael/activity">Back</a>
+                </h2>
+            </li>
+            <li>
+                <h2 class="nav-choice"><a
+                        href="https://github.com/aimatochysia/12321-petra-michael-classes">Repository</a></h2>
+            </li>
+        </ul>
+    </nav>
+
+    <style>
+        /* for all */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a:link,
+        a:active,
+        a:visited {
+            color: rgb(219, 252, 253);
+            transition: all 0.5s ease 0s;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        .pharagraph-hyperlink:link,
+        .pharagraph-hyperlink:active {
+            color: rgb(153, 189, 255);
+            text-decoration: none;
+        }
+
+        /* navigation */
+        .navigation-bar {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navigation-bar {
+            background-size: cover;
+            background-color: #1b1b1b;
+            width: 100%;
+            overflow: hidden;
+            margin-right: 17%;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0px;
+            z-index: 30;
+        }
+
+        #nav-bar-ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav-bar-ul h2 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 1.25em;
+        }
+
+        .navigation-bar h1,
+        .navigation-bar h2,
+        .navigation-bar img {
+            float: left;
+            font-size: 1.4rem;
+            padding: 0% 1%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .navigation-bar h1,
+        .navigation-bar h2 {
+            color: rgb(219, 252, 253);
+        }
+
+        .navigation-bar h2 {
+            float: right;
+            border: solid white;
+            border-radius: 0%;
+            transition: all 0.5s ease 0s;
+            margin-inline: 1%;
+        }
+
+        .navigation-bar h2:hover {
+            background-color: #1d1d1d;
+            border-radius: 40px 40px 40px 40px;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+
+        .logo {
+            height: 2em;
+            width: 2em;
+            margin: 1%;
+            margin-top: 1em;
+        }
+
+        #logo-text {
+            font-weight: bold;
+            font-size: 2em;
+            float: left;
+        }
+    </style>
 
     <style>
         @import "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700";
